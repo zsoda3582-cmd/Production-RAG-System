@@ -176,11 +176,10 @@ Hit@5 用于衡量：在返回的前 5 个检索结果中，是否至少有一�
 ### 5.2 获取项目
 
 ```bash
-git clone <项目仓库地址>
-cd 1002_Production-RAG-System
+git clone https://github.com/zsoda3582-cmd/Production-RAG-System.git
+cd Production-RAG-System
 ```
 
-其中 `<项目仓库地址>` 需要替换为实际 GitHub 仓库地址。
 
 ### 5.3 配置环境变量
 
