@@ -173,11 +173,12 @@ Hit@5 用于衡量：在返回的前 5 个检索结果中，是否至少有一�
 - DeepSeek API Key
 - Git（用于克隆项目）
 
-### 5.2 获取项目
+### 5.2 获取项目以及LangChain官方文档
 
 ```bash
 git clone https://github.com/zsoda3582-cmd/Production-RAG-System.git
 cd Production-RAG-System
+git clone https://github.com/langchain-ai/docs.git temp_langchain_docs
 ```
 
 
@@ -277,7 +278,6 @@ http://localhost:8501
 
 在网页中输入问题，点击 Ask，即可查看生成答案及对应的检索来源。
 
-### 5.7 运行说明
 ### 5.7 运行说明
 
 当前项目采用前后端分离的运行方式：
