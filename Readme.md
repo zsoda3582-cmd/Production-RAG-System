@@ -173,14 +173,30 @@ Hit@5 用于衡量：在返回的前 5 个检索结果中，是否至少有一�
 - DeepSeek API Key
 - Git（用于克隆项目）
 
-### 5.2 获取项目以及LangChain官方文档
+### 5.2 获取项目及知识库文档
+
+首先克隆本项目：
 
 ```bash
 git clone https://github.com/zsoda3582-cmd/Production-RAG-System.git
 cd Production-RAG-System
+```
+
+本项目使用 LangChain 官方文档作为 RAG 知识库。由于原始文档未包含在本项目仓库中，需要额外克隆：
+
+```bash
 git clone https://github.com/langchain-ai/docs.git temp_langchain_docs
 ```
 
+知识库文档预期位于：
+
+```text
+temp_langchain_docs/src/oss/langchain
+```
+
+运行前请确认该目录存在并包含文档文件。
+
+注意：知识库内容来自外部仓库，后续更新可能导致文档结构或评测结果发生变化。
 
 ### 5.3 配置环境变量
 
